@@ -5,3 +5,8 @@
 
     padding: .5rem 1rem;
 }
+
+.article {
+    display: flex;
+    gap: 1rem;
+}

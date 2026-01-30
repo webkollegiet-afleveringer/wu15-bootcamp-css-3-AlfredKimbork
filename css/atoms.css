@@ -18,6 +18,15 @@
     color: #767676;
 }
 
+.__aside .__text {
+    grid-column: span 2;
+    text-align: right;
+}
+
+.__aside .--icon {
+    justify-self: end;
+}
+
 .--grid {
     display: grid;
     gap: .25rem;
