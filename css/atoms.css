@@ -27,6 +27,49 @@
     justify-self: end;
 }
 
+.__profile-pic {
+    width: 3rem;
+    height: 3rem;
+    grid-row: span 2;
+
+    & img {
+        border-radius: 50%;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.__profile-name {
+    grid-column: span 2;
+    font-size: .75rem;
+    }
+
+    .--mail {
+    background: #afafaf;
+    fill: #ffffff;
+}
+
+.--twitter {
+    background: #14ABD7;
+    fill: #ffffff;
+}
+
+.comments {
+    gap: .25rem;
+    align-items: center;
+    background: none;
+    border: none;
+}
+
+.hook__text {
+    width: 27.5rem;
+}
+
+.explore__navigation .--icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
 .--grid {
     display: grid;
     gap: .25rem;

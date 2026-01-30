@@ -10,3 +10,58 @@
     display: flex;
     gap: 1rem;
 }
+
+.about {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 3rem repeat(auto-fit, 1.5rem);
+    grid-row: span 2;
+
+}
+
+.abroad {
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 3rem auto;
+    margin-block: 4rem;
+}
+
+.--abroad-header {
+    position: relative;
+    justify-content: space-between;
+    align-items: start;
+
+    padding-top: .25rem;
+}
+
+.--abroad-header::after {
+    content: '';
+    position: absolute;
+    bottom: .5rem;
+    left: 0;
+
+    border-bottom: 2px dotted #afafaf;
+    width: 100%;
+}
+
+.explore__header {
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2.5rem;
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 2rem;
+        left: 0;
+
+        border-bottom: 2px dotted #afafaf;
+        width: 100%;
+    }
+}
+
+.explore__main {
+    gap: 1rem;
+}
+
+
+
