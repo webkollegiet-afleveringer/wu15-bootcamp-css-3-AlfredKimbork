@@ -184,6 +184,33 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.recommend::after {
+    content: '';
+    position: absolute;
+    bottom: -.5rem;
+    left: 0;
 
+    border-bottom: 1px dotted #afafaf;
+    width: 100%;
+}
+
+.comments {
+    & > p {
+        font-size: .875rem;
+        margin-block: .5rem;
+
+        & span {
+            display: block;
+            margin-block: .75rem;
+        }
+    }
+}
+
+.profile {
+    grid-template-columns: 2.25rem 1fr;
+    gap: .125rem;
+    grid-template-rows: 1rem 1rem;
+    margin-bottom: .5rem;
+}
 
 

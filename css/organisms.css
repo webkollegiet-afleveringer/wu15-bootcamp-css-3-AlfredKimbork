@@ -68,3 +68,6 @@
     grid-template-rows: auto 2rem auto;
 }
 
+.community {
+    gap: 1rem;
+}

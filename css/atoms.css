@@ -90,6 +90,54 @@
     }
 }
 
+.recommend__heading {
+        position: relative;
+        padding-right: 5rem;
+        margin-bottom: 2rem;
+}
+
+.__profile-pic {
+    width: 100%;
+    align-self: center;
+    grid-row: span 2;
+}
+
+.__posted {
+    font-size: .75rem;
+    grid-area: 2 / 2;
+    align-self: start;
+}
+
+.comment__text {
+        font-size: .75rem;
+        grid-area: 2 / 2;
+        align-self: start;
+}
+
+.__recommend-btn {
+        font-size: .875rem;
+        text-decoration: none;
+
+        background: none;
+        border: none;
+
+        margin-bottom: 2rem;
+}
+
+.seperator {
+    position: relative;
+
+    &::after {
+        content: '';
+            position: absolute;
+            bottom: -3rem;
+            left: 0;
+
+            border-bottom: 1px solid #afafaf;
+            width: 100%;
+    }
+}
+
 .--grid {
     display: grid;
     gap: .25rem;
