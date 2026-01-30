@@ -71,3 +71,10 @@
 .community {
     gap: 1rem;
 }
+
+footer {
+    background: #D7D7D7;
+    padding-block: 1.5rem;
+    gap: 1rem;
+}
+
