@@ -161,3 +161,29 @@ h1 {
 .explore__main__article {
     flex: 0 1 25%;
 }
+
+.latest__header {
+    grid-column: span 2;
+    justify-content: space-between;
+    align-items: center;
+
+    & * {
+        font-size: 1rem;
+    }
+}
+
+.latest__list {
+    grid-row: span 2;
+
+    & * {
+        text-decoration: none;
+    }
+}
+
+.__front-page {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+

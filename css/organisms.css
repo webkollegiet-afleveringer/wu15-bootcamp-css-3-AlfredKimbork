@@ -63,5 +63,8 @@
     gap: 1rem;
 }
 
-
+.latest {
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto 2rem auto;
+}
 
