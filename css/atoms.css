@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-nav__item {
+    text-decoration: none;
+    color: black;
+}
+
+.ad__img {
+    height: 10rem;
+    flex-grow: 1;
+}
+
+.ad__text {
+    font-size: .75rem;
+    color: #767676;
+}
+
+.__aside .__text {
+    grid-column: span 2;
+    text-align: right;
+}
+
+.__aside .--icon {
+    justify-self: end;
+}
+
+.__profile-pic {
+    width: 3rem;
+    height: 3rem;
+    grid-row: span 2;
+
+    & img {
+        border-radius: 50%;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.__profile-name {
+    grid-column: span 2;
+    font-size: .75rem;
+    }
+
+    .--mail {
+    background: #afafaf;
+    fill: #ffffff;
+}
+
+.--twitter {
+    background: #14ABD7;
+    fill: #ffffff;
+}
+
+.comments {
+    gap: .25rem;
+    align-items: center;
+    background: none;
+    border: none;
+}
+
+.hook__text {
+    width: 27.5rem;
+}
+
+.explore__navigation .--icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.__time {
+        font-size: .75rem;
+}
+
+.latest__title {
+    position: relative;
+    font-size: .875rem;
+    margin-bottom: 1rem;
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: -.5rem;
+        left: 0;
+
+        border-bottom: 1px dotted #afafaf;
+        width: 100%;
+    }
+}
+
+.recommend__heading {
+        position: relative;
+        padding-right: 5rem;
+        margin-bottom: 2rem;
+}
+
+.__profile-pic {
+    width: 100%;
+    align-self: center;
+    grid-row: span 2;
+}
+
+.__posted {
+    font-size: .75rem;
+    grid-area: 2 / 2;
+    align-self: start;
+}
+
+.comment__text {
+        font-size: .75rem;
+        grid-area: 2 / 2;
+        align-self: start;
+}
+
+.__recommend-btn {
+        font-size: .875rem;
+        text-decoration: none;
+
+        background: none;
+        border: none;
+
+        margin-bottom: 2rem;
+}
+
+.seperator {
+    position: relative;
+
+    &::after {
+        content: '';
+            position: absolute;
+            bottom: -3rem;
+            left: 0;
+
+            border-bottom: 1px solid #afafaf;
+            width: 100%;
+    }
+}
+
+.example {
+    aspect-ratio: 1 / 1.25;
+    object-fit: cover;
+    height: 20rem;
+
+    transform: translateY(-3rem);
+}
+
+.footer__ad .--btn {
+    padding: .25rem .5rem;
+    border-radius: 0;
+    width: fit-content;
+    background: #F1F1F1;
+    color: #8B828D;
+}
+
+.__page__img {
+        aspect-ratio: 2 / 1.25;
+        object-fit: cover;
+    }
