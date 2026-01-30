@@ -162,6 +162,20 @@ h1 {
     flex: 0 1 25%;
 }
 
+.__page {
+    gap: .5rem;
+    flex-direction: column;
+
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+
+    & * {
+        text-decoration: none;
+    }
+
+    
+}
+
 .latest__header {
     grid-column: span 2;
     justify-content: space-between;
